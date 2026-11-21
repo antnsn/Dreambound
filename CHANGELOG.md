@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.0 beta 4
+
+- Built on the latest LibBound, the shared core of the Bound addons, with its small fixes. Published on CurseForge straight from GitHub now.
+
 ## 0.1.0 beta 3
 
 - **Rage bar** in Bear Form: Marius' painted bar with the stone and bear claws, the number on it, a glow at full rage. Horizontal or vertical, movable and resizable; settings on the new Rage bar page.
