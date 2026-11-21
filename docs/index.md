@@ -30,6 +30,7 @@ Dreambound watches all of that. It shows a card when a buff is missing or about 
 - **Buff cards.** A card when Mark of the Wild, Thorns or Omen of Clarity is missing or running out. Click it to cast. Gift of the Wild counts as Mark of the Wild. [More](features/buffs.html)
 - **Buff key.** Out of combat, each press casts what a card asks for, then Mark of the Wild on the next group member in range who is missing it. [More](features/buff-key.html)
 - **Reagents.** A card when Wild Berries, Wild Thornroot or your Rebirth seeds run low. [More](features/reagents.html)
+- **Combo points.** In Cat Form, five claws, one lit for each combo point on your target, with a flash at 5. [More](features/combo-points.html)
 - **Travel panel.** Press Escape: Teleport: Moonglade, Travel Form, Aquatic Form and your Hearthstone sit beside the game menu. [More](features/travel.html)
 - **Well-Rested and Well Fed.** A warning and a countdown before they run out. [More](features/well-rested-and-well-fed.html)
 - **Explanations.** Hover over a card or button to read what it does and why. [More](features/explanations.html)
