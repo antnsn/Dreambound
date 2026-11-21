@@ -1,5 +1,5 @@
 <!-- summary (CurseForge "Summary" field, at most 256 characters):
-Druid helper for WoW: Forever: one-click cards when Mark of the Wild, Thorns or Omen of Clarity is missing or running out, warnings before berries, thornroot or Rebirth seeds run out, and Moonglade and your forms beside the Escape menu.
+Druid helper for WoW: Forever: one-click cards when Mark of the Wild, Thorns or Omen of Clarity is missing or running out, reagent and Rebirth seed warnings, a Cat Form combo point bar, and Moonglade and your forms beside the Escape menu.
 -->
 
 # Dreambound
@@ -19,6 +19,11 @@ Dreambound keeps your druid buffs up and your reagents stocked: a card when Mark
 ## Reagents
 - Says when your **Wild Berries or Wild Thornroot** (for Gift of the Wild) run low.
 - Says when the **seed for your best Rebirth rank** (Maple, Stranglethorn, Ashwood, Hornbeam or Ironwood) runs low.
+
+## Combo points
+- **In Cat Form, five claws**, one lit for each combo point on your target. Shown while you have points or are in combat.
+- **A flash at 5**: time for a finisher.
+- Move and resize it like the cards.
 
 ## Travel
 - **Press Escape**: beside the game menu you get Teleport: Moonglade, Travel Form, Aquatic Form and your Hearthstone.

@@ -33,5 +33,14 @@ end
 
 ns.optionPages[#ns.optionPages + 1] = BuffPage
 ns.optionPages[#ns.optionPages + 1] = ReagentPage
+-- the combo point bar (LibBound), in Cat Form only: Marius' claws with a warm glow
+Bound.InstallComboBar(ns, {
+	glow = { 1, 0.62, 0.25, 0.85 },
+	about = "Five claws, one lit for each combo point on your target. In Cat Form only.",
+	active = function() -- Cat Form runs on energy; caster form on mana, Bear Form on rage
+		local t = UnitPowerType("player")
+		return not ns.IsSecret(t) and t == 3
+	end,
+})
 ns.optionPages[#ns.optionPages + 1] = TravelPage
 Bound.InstallOptions(ns, { header = "Druid helper", launcher = "Druid helper: buffs, reagents, travel." })

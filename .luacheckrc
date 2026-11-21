@@ -4,4 +4,4 @@ std = "lua51"
 max_line_length = false
 ignore = { "212", "432" }
 exclude_files = { "Libs/", "tests/", "tools/" }
-read_globals = { "C_Item", "CreateFrame", "IsPlayerSpell", "LibStub" }
+read_globals = { "C_Item", "CreateFrame", "IsPlayerSpell", "LibStub", "UnitPowerType" }

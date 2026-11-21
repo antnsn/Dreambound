@@ -11,6 +11,7 @@ Full guide: https://antnsn.github.io/Dreambound/
   running out. Click it to cast. Gift of the Wild counts as Mark of the Wild.
 - **Reagents**: says when Wild Berries or Wild Thornroot for Gift of the Wild, or the seed for your
   best Rebirth rank, run low.
+- **Combo points**: in Cat Form, five claws, one lit for each combo point on your target, with a flash at 5.
 - **Travel**: press Escape, and beside the game menu you get Teleport: Moonglade, Travel Form,
   Aquatic Form and your Hearthstone.
 - **Buff key** (Extras page): out of combat, each press casts the next thing a card asks for, then Mark of the Wild on the next group member in range who is missing it.

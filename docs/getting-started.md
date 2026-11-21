@@ -31,7 +31,7 @@ Dreambound only loads on druids. On any other character it turns itself off for 
 
 Type `/dream` in chat, or click the Dreambound button on your minimap.
 
-The options window has five pages on the left: **Buffs**, **Reagents**, **Travel**, **Extras** and **Skin**. Everything is on by default.
+The options window has six pages on the left: **Buffs**, **Reagents**, **Combo points**, **Travel**, **Extras** and **Skin**. Everything is on by default.
 
 The default skin, Dream, is green. See [Skins](features/skins.html).
 
