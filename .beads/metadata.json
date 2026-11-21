@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "Dreambound",
+  "project_id": "e7cb99fb-9ca9-40c3-ae62-eab6b71db870"
+}
