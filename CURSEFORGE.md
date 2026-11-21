@@ -44,6 +44,7 @@ Dreambound keeps your druid buffs up and your reagents stocked: a card when Mark
 ## Ideas and contributions
 - **Missing something?** New features are added on request: leave a comment here.
 - **Feel free to contribute**: the code is on GitHub, https://github.com/antnsn/Dreambound (issues and pull requests welcome).
+- **Want a Bound addon for another class?** The shared core, LibBound, has a guide and API reference: https://antnsn.github.io/LibBound/
 
 ## The Bound family
 Dreambound is one of the Bound addons, one per class, built on the same core: Lightbound (paladin), Chronobound (mage), Stormbound (shaman), Packbound (hunter), Spiritbound (priest), Felbound (warlock) and Dreambound (druid). They look like their class but work the same way, so if you know one, you know them all.
