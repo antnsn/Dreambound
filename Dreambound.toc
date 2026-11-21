@@ -1,0 +1,19 @@
+## Interface: 16001
+## Title: Dreambound
+## Notes: Druid helper: Mark of the Wild, Thorns and Omen of Clarity reminders (click to cast), Gift of the Wild reagents and Rebirth seeds, Well Rested and Well Fed, Moonglade, Travel Form and Aquatic Form on the Escape menu. /dream for options.
+## X-License: GPL-3.0-or-later
+## Author: Rheolux
+## Version: @project-version@
+## IconTexture: Interface\AddOns\Dreambound\Media\Icon64
+## SavedVariables: DreamboundDB
+
+Libs\LibStub\LibStub.lua
+Libs\LibBound\LibBound.xml
+
+Core.lua
+Skin.lua
+Help.lua
+Buffs.lua
+Reagents.lua
+Travel.lua
+Options.lua
