@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.0 beta 3
+
+- **Rage bar** in Bear Form: Marius' painted bar with the stone and bear claws, the number on it, a glow at full rage. Horizontal or vertical, movable and resizable; settings on the new Rage bar page.
+- In the Blizzard and Flat skins the rage bar and the combo points take a plain look.
+
 ## 0.1.0 beta 2
 
 - **Combo point bar** in Cat Form: five claws, one lit with a warm glow for each combo point on your target, shown while you have points or are in combat, a few flashes when you reach 5. Movable and resizable; settings on the new Combo points page.

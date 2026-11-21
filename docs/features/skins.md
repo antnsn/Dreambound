@@ -1,7 +1,7 @@
 ---
 title: Skins
 parent: Features
-nav_order: 9
+nav_order: 10
 description: Pick how Dreambound looks, Dream green, classic Blizzard or flat.
 ---
 

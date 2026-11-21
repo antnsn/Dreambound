@@ -1,5 +1,5 @@
 <!-- summary (CurseForge "Summary" field, at most 256 characters):
-Druid helper for WoW: Forever: one-click cards when Mark of the Wild, Thorns or Omen of Clarity is missing or running out, reagent and Rebirth seed warnings, a Cat Form combo point bar, and Moonglade and your forms beside the Escape menu.
+Druid helper for WoW: Forever: one-click cards when Mark of the Wild, Thorns or Omen of Clarity is missing or ending, reagent and Rebirth seed warnings, combo points in Cat Form, a rage bar in Bear Form, and Moonglade and forms beside the Escape menu.
 -->
 
 # Dreambound
@@ -24,6 +24,11 @@ Dreambound keeps your druid buffs up and your reagents stocked: a card when Mark
 - **In Cat Form, five claws**, one lit for each combo point on your target. Shown while you have points or are in combat.
 - **A flash at 5**: time for a finisher.
 - Move and resize it like the cards.
+
+## Rage bar
+- **In Bear Form, your rage in a bar of its own**, with the number on it and a glow at full rage.
+- **Horizontal or vertical**, movable and resizable like the cards.
+- Painted in the Dream skin; a plain bar in the Blizzard and Flat skins.
 
 ## Travel
 - **Press Escape**: beside the game menu you get Teleport: Moonglade, Travel Form, Aquatic Form and your Hearthstone.
