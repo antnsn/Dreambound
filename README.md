@@ -2,8 +2,10 @@
 
 # Dreambound
 
-A druid helper for **WoW: Forever**, part of the Bound family (Lightbound, Chronobound,
-Stormbound, Packbound, Spiritbound, Felbound).
+A druid helper for **WoW: Forever**, part of the Bound family: one addon per class on the same
+core (Lightbound, Chronobound, Stormbound, Packbound, Spiritbound, Felbound, Dreambound).
+
+Full guide: https://antnsn.github.io/Dreambound/
 
 - **Buffs**: a card when Mark of the Wild, Thorns or Omen of Clarity (talent) is missing or
   running out. Click it to cast. Gift of the Wild counts as Mark of the Wild.
