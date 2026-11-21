@@ -13,6 +13,7 @@ Dreambound does a few small druid jobs for you. Each page below covers one of th
 - [Buff key](buff-key.html): one key that casts what a card asks for, then Mark of the Wild on the next group member who needs it.
 - [Reagents](reagents.html): a card when Wild Berries, Wild Thornroot or Rebirth seeds run low.
 - [Combo points](combo-points.html): in Cat Form, five claws, one lit for each combo point on your target, with a flash at 5.
+- [Rage bar](rage-bar.html): in Bear Form, your rage in a bar of its own, horizontal or vertical.
 - [Travel panel](travel.html): Teleport: Moonglade, Travel Form, Aquatic Form and your Hearthstone beside the game menu.
 - [Well-Rested and Well Fed](well-rested-and-well-fed.html): a warning and a countdown before they run out.
 - [Explanations](explanations.html): what each card and button does, in the tooltip.

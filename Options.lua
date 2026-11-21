@@ -42,5 +42,14 @@ Bound.InstallComboBar(ns, {
 		return not ns.IsSecret(t) and t == 3
 	end,
 })
+-- the rage bar (LibBound), in Bear Form only: Marius' bar with the stone and claws
+Bound.InstallPowerBar(ns, {
+	power = 1, title = "Rage bar", noun = "rage", overlay = true,
+	about = "Your rage in a bar of its own. In Bear Form only.",
+	active = function() -- Bear Form runs on rage
+		local t = UnitPowerType("player")
+		return not ns.IsSecret(t) and t == 1
+	end,
+})
 ns.optionPages[#ns.optionPages + 1] = TravelPage
 Bound.InstallOptions(ns, { header = "Druid helper", launcher = "Druid helper: buffs, reagents, travel." })

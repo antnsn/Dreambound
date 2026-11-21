@@ -37,5 +37,5 @@ In `/dream`, page **Combo points**:
 **The bar stays hidden in combat.**
 WoW: Forever hides some combat values from addons. If it hides combo points, Dreambound hides the bar rather than show a wrong count. Tell us if that happens to you.
 
-**The claws look the same in every skin.**
-They are painted art, so the Dream, Blizzard and Flat skins share them.
+**The Blizzard and Flat skins.**
+The painted claws belong to the Dream skin. The Blizzard and Flat skins show five plain squares instead, lit in the same colour.

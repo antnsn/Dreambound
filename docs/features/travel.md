@@ -1,7 +1,7 @@
 ---
 title: Travel panel
 parent: Features
-nav_order: 5
+nav_order: 6
 description: Teleport: Moonglade, Travel Form, Aquatic Form and your Hearthstone beside the game menu.
 ---
 
