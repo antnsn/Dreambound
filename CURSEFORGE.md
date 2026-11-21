@@ -8,6 +8,8 @@ Druid helper for WoW: Forever: one-click cards when Mark of the Wild, Thorns or 
 
 Dreambound keeps your druid buffs up and your reagents stocked: a card when Mark of the Wild, Thorns or Omen of Clarity is missing or running out, and a warning before your Gift of the Wild reagents or Rebirth seeds run out.
 
+**Full guide: https://antnsn.github.io/Dreambound/**
+
 **Beta:** Dreambound is new. Spell IDs come from Classic and are checked on Forever before 0.1.0; tell us what doesn't work.
 
 ## Buffs
