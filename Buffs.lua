@@ -10,7 +10,8 @@ local function BuffName(list, english) return ns.SpellName(list[1]) or english e
 
 local BUFFS = {
 	{ key = "markOfTheWild", frame = "DreamboundMarkOfTheWildFrame", label = "Mark of the Wild", icon = 136078,
-		list = D.markOfTheWild, group = D.giftOfTheWild, groupName = "Gift of the Wild", party = true },
+		list = D.markOfTheWild, group = D.giftOfTheWild, groupName = "Gift of the Wild", party = true,
+		levels = { 1, 10, 20, 30, 40, 50, 60 } }, -- each rank's spell level (Classic)
 	{ key = "thorns", frame = "DreamboundThornsFrame", label = "Thorns", icon = 136104, list = D.thorns },
 	{ key = "omenOfClarity", frame = "DreamboundOmenOfClarityFrame", label = "Omen of Clarity", icon = 136017,
 		list = D.omenOfClarity },
@@ -39,7 +40,7 @@ end
 -- missing it (Gift of the Wild counts), while its card is turned on. Thorns stays on you.
 for _, b in ipairs(BUFFS) do
 	if b.party then
-		ns.groupBuffs[#ns.groupBuffs + 1] = { list = b.list,
+		ns.groupBuffs[#ns.groupBuffs + 1] = { list = b.list, levels = b.levels,
 			names = function() return Names(b) end,
 			enabled = function() return ns.db[b.key] ~= false end }
 	end
