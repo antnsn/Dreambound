@@ -1,9 +1,9 @@
---@moods: self group giftbuffed far dead markoff thorns nothing bind combat unreadable
+--@moods: self group giftbuffed far dead markoff thorns nothing bind combat unreadable low
 -- the buff key (LibBound): each press casts the next thing needed: the top card's spell (your own
 -- buffs), else Mark of the Wild on the next party member in range who is missing it
 local T = dofile(wb.dir .. "/tests/_druid.lua")
 local m = wb.mood
-T.druid({ 1126, 467 }) -- Mark of the Wild, Thorns
+T.druid(m == "low" and { 1126, 5232, 9885, 467 } or { 1126, 467 }) -- Mark of the Wild, Thorns
 local s = wb.state
 local function aura(name) return { name = name, spellId = 1, duration = 1800, expirationTime = 9999999, sourceUnit = "player" } end
 if m ~= "self" then s.auras.player = { aura("Mark of the Wild"), aura("Thorns") } end
@@ -17,6 +17,7 @@ G.ClearOverrideBindings = function() bound = {} end
 G.UnitCanAssist = function(_, unit) return wb.unit(unit) ~= nil end -- not in the stub
 if m ~= "self" and m ~= "nothing" and m ~= "bind" then
 	local p = { unit = "party1", name = "Friend", classFile = "WARRIOR" }
+	if m == "low" then p.level = 22 end
 	if m == "far" then p.far = true end
 	if m == "dead" then p.dead = true end
 	local members = { p }
@@ -35,6 +36,9 @@ if m == "self" then
 	wb.expect("your own missing buff first (the top card)", macro, "/cast [nocombat,@player] Mark of the Wild")
 elseif m == "group" then
 	wb.expect("then the party member missing Mark of the Wild", macro, "/cast [nocombat,@party1] Mark of the Wild")
+elseif m == "low" then
+	wb.expect("a level 22: rank 2 (level 10), rank 7 (60) is too high", key:GetAttribute("spell"), 5232)
+	wb.expect("cast by spell ID", key:GetAttribute("type"), "spell")
 elseif m == "giftbuffed" or m == "far" or m == "dead" or m == "markoff" or m == "thorns" or m == "nothing" then
 	wb.expect("nothing to cast (" .. m .. ")", macro, "")
 	key:GetScript("PostClick")(key, "LeftButton", false)

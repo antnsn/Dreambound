@@ -18,6 +18,7 @@ Press one key, out of combat, and Dreambound casts the next buff that is needed:
 - Thorns stays on you. The key never casts it on the group.
 - It works in a party and in a raid. You are covered by the cards, so the group step skips you.
 - A buff with less than 1 minute left counts as missing.
+- **Lower-level players get the rank they can take.** A buff only goes on someone at most 10 levels below the rank's spell level, so a level 22 gets Mark of the Wild rank 2, not rank 7.
 - Gift of the Wild counts: someone who has it doesn't get Mark of the Wild on top. The key itself casts Mark of the Wild, highest rank you know.
 - It skips players who are offline, dead, not friendly, too far away or out of range of the spell.
 - With **Show** off for Mark of the Wild on the **Buffs** page, the group step is skipped.
