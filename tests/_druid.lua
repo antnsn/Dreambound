@@ -5,7 +5,7 @@ local NAMES = {
 	[21849] = "Gift of the Wild", [21850] = "Gift of the Wild",
 	[467] = "Thorns", [782] = "Thorns", [16864] = "Omen of Clarity",
 	[20484] = "Rebirth", [20739] = "Rebirth", [20742] = "Rebirth", [20747] = "Rebirth", [20748] = "Rebirth",
-	[18960] = "Teleport: Moonglade", [783] = "Travel Form", [1066] = "Aquatic Form", [429959] = "Well-Rested",
+	[18960] = "Teleport: Moonglade", [783] = "Travel Form", [1066] = "Aquatic Form", [2782] = "Remove Curse", [8946] = "Cure Poison", [2893] = "Abolish Poison", [429959] = "Well-Rested",
 }
 function M.druid(known)
 	local s = wb.state

@@ -17,4 +17,5 @@ Help.lua
 Buffs.lua
 Reagents.lua
 Travel.lua
+Cure.lua
 Options.lua

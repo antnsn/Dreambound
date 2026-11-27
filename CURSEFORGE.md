@@ -20,6 +20,10 @@ Dreambound keeps your druid buffs up and your reagents stocked: a card when Mark
 - Says when your **Wild Berries or Wild Thornroot** (for Gift of the Wild) run low.
 - Says when the **seed for your best Rebirth rank** (Maple, Stranglethorn, Ashwood, Hornbeam or Ironwood) runs low.
 
+## Cure
+- A **grid of your group** that lights up when someone has Curse or Poison you can remove: click for Remove Curse, right-click for Cure Poison. Works in combat.
+- A key for each that casts on whoever is under your mouse, in any raid frame too.
+
 ## Combo points
 - **In Cat Form, five claws**, one lit for each combo point on your target. Shown while you have points or are in combat.
 - **A flash at 5**: time for a finisher.

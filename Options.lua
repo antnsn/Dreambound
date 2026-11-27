@@ -33,6 +33,7 @@ end
 
 ns.optionPages[#ns.optionPages + 1] = BuffPage
 ns.optionPages[#ns.optionPages + 1] = ReagentPage
+if ns.CleansePage then ns.optionPages[#ns.optionPages + 1] = ns.CleansePage end -- Cure (Cure.lua)
 -- the combo point bar (LibBound), in Cat Form only: Marius' claws with a warm glow
 Bound.InstallComboBar(ns, {
 	glow = { 1, 0.62, 0.25, 0.85 },

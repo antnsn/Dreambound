@@ -6,6 +6,8 @@ local Bound = LibStub("LibBound-1.0")
 -- Spells and items, lowest rank first. Classic IDs; Forever follows Classic content.
 -- Checked in game before each release.
 ns.DATA = {
+	removeCurse = { 2782 },
+	curePoison = { 8946, 2893 }, -- Cure Poison, then Abolish Poison once known
 	markOfTheWild = { 1126, 5232, 6756, 5234, 8907, 9884, 9885 },
 	giftOfTheWild = { 21849, 21850 },
 	thorns = { 467, 782, 1075, 8914, 9756, 9910 },

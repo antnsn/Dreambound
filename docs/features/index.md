@@ -18,4 +18,5 @@ Dreambound does a few small druid jobs for you. Each page below covers one of th
 - [Well-Rested and Well Fed](well-rested-and-well-fed.html): a warning and a countdown before they run out.
 - [Explanations](explanations.html): what each card and button does, in the tooltip.
 - [Frames and minimap](frames-and-minimap.html): moving and resizing frames, the grid, and the minimap button.
+- [Cure](cure.html): a grid of your group that lights up when someone has Curse or Poison you can remove.
 - [Skins](skins.html): Dream, classic Blizzard or flat.
