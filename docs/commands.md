@@ -16,6 +16,8 @@ Everything in Dreambound can be set in the options window (`/dream`). These chat
 | --- | --- |
 | `/dream` | Opens or closes the options window. `/dream options` and `/dream config` do the same. |
 | `/dream help` | Lists every command in chat. |
+| `/dream ignore Debuff Name` | Adds a debuff to the [cure](features/cure.html) ignore list, or removes it if it's already there. Not case sensitive. |
+| `/dream ignore` | Lists the ignored debuffs. |
 
 ## Frames
 

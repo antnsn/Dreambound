@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- **Cure**: a grid of your group (or a list) that shows who has Curse or Poison you can remove. Click a cell for Remove Curse, right-click for Cure Poison. Each has a key that casts on whoever is under your mouse, in combat too. Set it up on the new Cure page; `/dream ignore <debuff>` hides one you don't want to see. The same frame as Lightbound's Cleanse.
+
 ## 0.1.0 beta 5
 
 - **Buff key: the right rank for lower-level players**: someone more than 10 levels below a rank gets the best Mark of the Wild they can take (a level 22 gets rank 2).
