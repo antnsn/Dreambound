@@ -16,9 +16,6 @@ The druid helper for World of Warcraft: Forever.
 
 ---
 
-{: .note }
-Dreambound is a first beta. Spell IDs come from Classic and are being checked on Forever. Tell us what doesn't work.
-
 ## Why Dreambound exists
 
 A druid keeps a few long buffs up: Mark of the Wild, Thorns, and Omen of Clarity if you have the talent. Each lasts long enough to forget. Gift of the Wild needs Wild Berries or Wild Thornroot, and Rebirth needs a seed, and both run out at the wrong moment.

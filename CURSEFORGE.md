@@ -10,8 +10,6 @@ Dreambound keeps your druid buffs up and your reagents stocked: a card when Mark
 
 **Full guide:** https://antnsn.github.io/Dreambound/
 
-**Beta:** Dreambound is new. Spell IDs come from Classic and are checked on Forever before 0.1.0; tell us what doesn't work.
-
 ## Buffs
 - **Mark of the Wild, Thorns** and **Omen of Clarity** (talent): a card when one is missing or about to run out. Click it to cast.
 - **Gift of the Wild** counts as Mark of the Wild, so you don't overwrite it.
@@ -67,6 +65,12 @@ Dreambound is one of the Bound addons, one per class, built on the same core: Li
 
 ## Changelog
 <!-- changelog:start -->
+### 0.1.0
+
+- **The Cure frame stays out of the way**: it only shows in combat, or when someone has a debuff you can remove (not in town while nobody needs it). Untick **Only in combat or when someone needs it** on the Cure page to keep it up.
+- **Camp Benefits** (Forever's campfire buff, new **Camp** page): a warning before it runs out, and a chat line naming the camp features you ticked that the campfire lacks (Camp Chair, First Aid Kit, Mana Well, ...). From LibBound, the same in every Bound addon.
+- **Cure**: a grid of your group (or a list) that shows who has Curse or Poison you can remove. Click a cell for Remove Curse, right-click for Cure Poison. Each has a key that casts on whoever is under your mouse, in combat too. Set it up on the new Cure page; `/dream ignore <debuff>` hides one you don't want to see. The same frame as Lightbound's Cleanse.
+
 ### 0.1.0 beta 5
 
 - **Buff key: the right rank for lower-level players**: someone more than 10 levels below a rank gets the best Mark of the Wild they can take (a level 22 gets rank 2).
